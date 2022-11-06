@@ -1,3 +1,4 @@
+
 var express = require('express');
 var router = express.Router();
 //var carval = require('../models/carval');
@@ -132,47 +133,6 @@ router.get('/wedochain', function(req, res, next) {
 
 
 
-
-
-
- /*
- function addwedodata(chaindata1){
- 
-  if(lasttotale == between2(chaindata1.toString(),"T","F")  ){
-  new chainclass({
-    Matriqule : "jklnum123",
-    Choix1 : between2(chaindata1.toString(),"A","B") ,
-    Choix2 : between2(chaindata1.toString(),"B","C"),
-    Choix3 : between2(chaindata1.toString(),"C","T"),
-    Totale : between2(chaindata1.toString(),"T","F"),
-    
-    Date : new Date()
-  }).save( 
-    lastchoise1 = between2(chaindata1.toString(),"A","B") ,
-    lastchoise2 = between2(chaindata1.toString(),"B","C"),
-    lastchoise3 = between2(chaindata1.toString(),"C","T"),
-    lasttotale = between2(chaindata1.toString(),"T","F"));
-
- }
- else{
-
-  new chainclass({
-    Matriqule : "jklnum123",
-    Choix1 : between2(chaindata1.toString(),"A","B")+lastchoise1 ,
-    Choix2 : between2(chaindata1.toString(),"B","C")+lastchoise2,
-    Choix3 : between2(chaindata1.toString(),"C","T")+lastchoise3,
-    Totale : between2(chaindata1.toString(),"T","F")+lasttotale,
-    
-    Date : new Date()
-  }).save( 
-    lastchoise1 = between2(chaindata1.toString(),"A","B")+lastchoise1,
-    lastchoise2 = between2(chaindata1.toString(),"B","C")+lastchoise2,
-    lastchoise3 = between2(chaindata1.toString(),"C","T")+lastchoise3,
-    lasttotale = between2(chaindata1.toString(),"T","F")+lasttotale);
- }
-}
- 
- */
 
 function afterT(str){
   return str.substring(str.indexOf('-') + 1);
