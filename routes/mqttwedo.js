@@ -24,8 +24,8 @@ router.use(cors());
 //connetct to adafruit platform
 //tessssssss
 var client = mqtt.connect('mqtt://io.adafruit.com', {
-    username: 'ghass',
-    password: 'aio_bgGB79o3k91ktCPOS16S66HFtzTa'
+    username: '****',
+    password: '************'
 });
 
 //feeds a utiliser
