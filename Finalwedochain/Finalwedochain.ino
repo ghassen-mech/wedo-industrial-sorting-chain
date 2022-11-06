@@ -55,12 +55,12 @@ int countgreen=0;
 #include <ESP8266WiFi.h> //<WiFi.h> if you have esp32
 #include "AdafruitIO_WiFi.h"
  
-#define WIFI_SSID       "El FabSpace Lac"//"Redmi"//globalnet//esprit//Redmi/WDC-WLAN/El FabSpace Lac
-#define WIFI_PASS       "Think_Make_Share"//"23091997" //39581064  70834402//23091997/WwwDC19$/Think_Make_Share
+#define WIFI_SSID       "**********"
+#define WIFI_PASS       "********"
 //"70834402"
 //wifi and adafruit authentication
-#define IO_USERNAME    "ghass"
-#define IO_KEY         "aio_PDsr63n3xSRCkIUXpTAm3V3QGJll"
+#define IO_USERNAME    "*******"
+#define IO_KEY         "***********"
 AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 
 AdafruitIO_Feed *wedochain = io.feed("wedochain"); 
