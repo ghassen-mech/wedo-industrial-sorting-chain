@@ -1,0 +1,14 @@
+*eps8266 : micro-controlleur permet la gestion des capteurs et des actionneur
+*4 IR sensor
+  -ir1 :validation de l'entrer du produit
+  -ir2,3,4 :detection du position du produit dans la chaine 
+*Servo Moteur 1,2 : pour faire sortir le produit 
+*moto reducteur 12v : pour faire tourner la chaine 
+*Color sensor TCS3200 : déterminer la composition des couleurs des produit
+*convertisseur de tesion DC 12v to 5v :pour alimenter les composant
+*convertisseur de tesion DC 12v to 3.3v :pour alimenter les composant
+*Alimentation 220v=>12V Dc :pour alimenter toute la chaine
+*cable telephonique : pour faire la connection entre les defferent composant du system
+*coffret electrique : Il rassemble, en un même endroit  les arrivées et départs des différents circuits du system
+*Goulotte industrielle : Les goulottes avec couvercles constituent un chemin de câble dans un coffret de commande tout en assurant
+une protection mécanique des conducteurs isolés ou des câbles.
